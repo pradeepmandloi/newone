@@ -1,0 +1,13 @@
+# t = (10, 20, 30, 40, 50) 
+# Write a program to:
+# check whether 30 exists in the tuple
+# find its index
+# find the length of the tuple
+# find the maximum and minimum values
+
+t = (10, 20, 30, 40, 50)
+print("Is 30 exist in t:",30 in t)
+print("Index of 50:",t.index(50))
+print("Length of tuple:",len(t))
+print("Max value:",max(t))
+print("Min value:",min(t))
